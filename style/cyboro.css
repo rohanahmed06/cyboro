@@ -5275,11 +5275,7 @@ a {
     }
 
     .section.section--hero {
-<<<<<<< HEAD
-        min-height: 110vh;
-=======
         min-height: 120vh;
->>>>>>> 04d0259ff611f91bcecaa0bbd88793bfa5ddf754
         padding-bottom: 0;
         -webkit-box-pack: justify;
         -webkit-justify-content: space-between;
@@ -5729,8 +5725,11 @@ a {
         right: 66px;
         bottom: -53px;
     }
-<<<<<<< HEAD
+
+    <<<<<<< HEAD
 }
+
 =======
 }
->>>>>>> 04d0259ff611f91bcecaa0bbd88793bfa5ddf754
+
+>>>>>>>04d0259ff611f91bcecaa0bbd88793bfa5ddf754
