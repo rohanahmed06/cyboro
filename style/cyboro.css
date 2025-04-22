@@ -5275,7 +5275,7 @@ a {
     }
 
     .section.section--hero {
-        min-height: 110vh;
+        min-height: 120vh;
         padding-bottom: 0;
         -webkit-box-pack: justify;
         -webkit-justify-content: space-between;
