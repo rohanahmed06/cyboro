@@ -1,0 +1,47 @@
+/* Hide Webflow Badge */
+.w-webflow-badge {
+    display: none !important;
+}
+
+/* Prevent horizontal scroll */
+body {
+    overflow-x: hidden;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cccccc;
+}
+
+::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+/* General smoothing and tap highlight */
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    outline: 0;
+}
+
+/* Input text selection */
+input {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
+
+/* Responsive opacity override for specific element */
+@media (max-width: 767px) and (min-width: 480px),
+(max-width: 479px) {
+    html.w-mod-js:not(.w-mod-ix) [data-w-id="b3f3f0a3-502f-148d-5b68-719709b331da"] {
+        opacity: 0;
+    }
+}
