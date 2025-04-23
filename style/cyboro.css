@@ -3979,6 +3979,7 @@ a {
     -webkit-flex: 0 0 auto;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
+    width: 20px;
 }
 
 .header__logo {
@@ -4340,6 +4341,42 @@ a {
     transform: translate(0, 0);
     color: #1e2126;
     text-align: left;
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+    .hero__elem.mod--1 {
+        -webkit-transition-duration: 1s;
+        transition-duration: 1s;
+        left: 24%;
+    }
+
+    .hero__elem.mod--4 {
+        left: 86px;
+        bottom: 132px;
+        width: 110px;
+    }
+
+    .hero__elem.mod--2 {
+        left: 185px;
+        top: 20px;
+        width: 200px;
+    }
+
+    .solutions__img.mod--ico.mod--7 {
+        margin-right: -70px;
+        margin-bottom: -41px;
+    }
+
+    .hero__elem.mod--6 {
+        left: auto;
+        top: auto;
+        right: 66px;
+        bottom: -53px;
+    }
+
+
 }
 
 @media screen and (max-width: 991px) {
@@ -4856,8 +4893,6 @@ a {
         margin-bottom: 20px;
     }
 
-
-
     .footer {
         background-image: url("https://assets.website-files.com/6195edfd57259487d0001d40/61a0be8a3d891868edc295f2_noise-mob.jpg");
         background-position: 50% 0;
@@ -5288,6 +5323,12 @@ a {
         margin-top: 35px;
     }
 
+    .hero__elem.mod--4 {
+        left: 86px;
+        bottom: 132px;
+        width: 75px;
+    }
+
     .footer__columns {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -5362,6 +5403,7 @@ a {
 
     .argument__cube-front.active {
         bottom: -14px;
+        110px
     }
 
     .argument__cube-side.mod--3 {
@@ -5676,14 +5718,6 @@ a {
     }
 }
 
-@media only screen and (max-width: 479px) and (min-width: 320px) {
-
-    /* CSS rules yahan likho */
-    .heading--size-50 {
-        font-size: 32px;
-    }
-}
-
 @media only screen and (max-width: 1366px) and (min-width: 991px) {
     .heading--size-50.mod--footer {
         margin-bottom: 0;
@@ -5694,37 +5728,17 @@ a {
     }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 479px) and (min-width: 320px) {
 
-    .hero__elem.mod--1 {
-        -webkit-transition-duration: 1s;
-        transition-duration: 1s;
-        left: 24%;
+    /* CSS rules yahan likho */
+    .heading--size-50 {
+        font-size: 32px;
     }
+}
 
-    .hero__elem.mod--4 {
-        left: 86px;
-        bottom: 132px;
-        width: 110px;
+@media only screen and (max-width: 371px) and (min-width: 300px) {
+    .heading--size-50.mod--footer {
+        font-size: 28px;
     }
-
-    .hero__elem.mod--2 {
-        left: 185px;
-        top: 20px;
-        width: 200px;
-    }
-
-    .solutions__img.mod--ico.mod--7 {
-        margin-right: -70px;
-        margin-bottom: -41px;
-    }
-
-    .hero__elem.mod--6 {
-        left: auto;
-        top: auto;
-        right: 66px;
-        bottom: -53px;
-    }
-
 
 }
