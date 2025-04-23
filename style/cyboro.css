@@ -2268,6 +2268,8 @@ a {
     color: hsla(0, 0%, 100%, 0.7);
 }
 
+
+
 .content {
     position: relative;
     width: 100%;
@@ -3468,6 +3470,16 @@ a {
     background-color: #fff;
 }
 
+.footer__soc-img {
+    filter: brightness(0) invert(1);
+    transition: filter 0.3s ease;
+}
+
+.footer__soc-link:hover .footer__soc-img {
+    filter: brightness(0) invert(0);
+}
+
+
 .footer__copyright-link {
     display: -webkit-box;
     display: -webkit-flex;
@@ -3486,6 +3498,8 @@ a {
     letter-spacing: 0.02em;
     text-decoration: none;
 }
+
+
 
 .solutions__columns {
     display: -webkit-box;
