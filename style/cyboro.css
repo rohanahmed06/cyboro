@@ -3479,6 +3479,10 @@ a {
     filter: brightness(0) invert(0);
 }
 
+img.footer__soc-img.github {
+    width: 95%;
+    height: 95%;
+}
 
 .footer__copyright-link {
     display: -webkit-box;
